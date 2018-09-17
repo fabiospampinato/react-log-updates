@@ -2,6 +2,8 @@
 
 Log the number of updates occurring, broken down by components.
 
+**Note**: you'll have to attach React's DevTools before being able to see any logs.
+
 ## Install
 
 ```sh
