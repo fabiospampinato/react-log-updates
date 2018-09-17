@@ -13,11 +13,6 @@
     "test:watch": "ava --watch",
     "prepublish": "npm run clean && npm run lint && npm run compile"
   },
-  "ava": {
-    "files": [
-      "test/index.js"
-    ]
-  },
   "bugs": {
     "url": "https://github.com/fabiospampinato/react-log-updates/issues"
   },
