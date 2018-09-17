@@ -11,7 +11,7 @@ npm install --save react-log-updates
 ## Usage
 
 ```ts
-import logUpdates from 'react-log-updates;
+import logUpdates from 'react-log-updates';
 
 logUpdates ({
   enabled: IS_DEVELOPMENT
