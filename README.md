@@ -27,6 +27,10 @@ logUpdates ({
 
 <img width="273" src="resources/demo.png" alt="Example Output" />
 
+## Related
+
+- **[react-should-component-update](https://github.com/fabiospampinato/react-should-component-update)**: Higher-Order Component for adding `shouldComponentUpdate` to components. It supports easy to set shortcuts.
+
 ## License
 
 MIT © Fabio Spampinato
