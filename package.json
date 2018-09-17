@@ -1,7 +1,7 @@
 {
   "name": "react-log-updates",
   "description": "Log the number of updates occurring, broken down by components.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
