@@ -30,7 +30,12 @@
     "type": "git",
     "url": "https://github.com/fabiospampinato/react-log-updates.git"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "performance",
+    "log",
+    "updates"
+  ],
   "dependencies": {
     "lodash": "^4.17.11"
   },
