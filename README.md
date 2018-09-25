@@ -30,6 +30,7 @@ logUpdates ({
 ## Related
 
 - **[react-should-component-update](https://github.com/fabiospampinato/react-should-component-update)**: Higher-Order Component for adding `shouldComponentUpdate` to components. It supports easy to set shortcuts.
+- **[react-selectr](https://github.com/fabiospampinato/react-selectr)**: Simple selector for React components.
 
 ## License
 
