@@ -1,4 +1,4 @@
-# React Log Names
+# React Log Updates
 
 Log the number of updates occurring, broken down by components.
 
