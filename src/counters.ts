@@ -1,7 +1,10 @@
 
 /* IMPORT */
 
-import * as _ from 'lodash';
+import debounce = require ( 'lodash/debounce' );
+import identity = require ( 'lodash/identity' );
+import orderBy = require ( 'lodash/orderBy' );
+import sum = require ( 'lodash/sum' );
 
 /* COUNTERS */
 
@@ -19,12 +22,12 @@ class Counters {
 
   log ( collapsed = true ) {
 
-    const counter = _.sum ( Object.values ( this.counters ) ),
+    const counter = sum ( Object.values ( this.counters ) ),
           group = collapsed ? console.groupCollapsed : console.group;
 
     group ( `${counter} Updates` );
 
-    _.orderBy ( Object.keys ( this.counters ), [name => this.counters[name], _.identity], ['desc', 'asc'] ).forEach ( ( name: string ) => {
+    orderBy ( Object.keys ( this.counters ), [name => this.counters[name], identity], ['desc', 'asc'] ).forEach ( ( name: string ) => {
 
       console.log ( `${name} ${this.counters[name]}` );
 
@@ -36,7 +39,7 @@ class Counters {
 
   }
 
-  logDebounced = _.debounce ( this.log, 100 );
+  logDebounced = debounce ( this.log, 100 );
 
 }
 

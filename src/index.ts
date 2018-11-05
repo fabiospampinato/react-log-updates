@@ -1,7 +1,7 @@
 
 /* IMPORT */
 
-import * as _ from 'lodash';
+import extend = require ( 'lodash/extend' );
 import Counters from './counters';
 import getDevToolsHook from './get_devtools_hook';
 import isIncluded from './is_included';
@@ -18,7 +18,7 @@ const defaultOptions = {
 
 function logUpdates ( options ) {
 
-  options = _.extend ( {}, defaultOptions, options );
+  options = extend ( {}, defaultOptions, options );
 
   if ( !options.enabled ) return;
 
