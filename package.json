@@ -10,7 +10,7 @@
     "compile:watch": "tsc --skipLibCheck --watch",
     "test": "ava",
     "test:watch": "ava --watch",
-    "prepublish": "npm run clean && npm run compile"
+    "prepublishOnly": "npm run clean && npm run compile"
   },
   "bugs": {
     "url": "https://github.com/fabiospampinato/react-log-updates/issues"
