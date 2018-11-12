@@ -8,8 +8,6 @@
     "clean": "rimraf dist",
     "compile": "tsc --skipLibCheck && tstei",
     "compile:watch": "tsc --skipLibCheck --watch",
-    "test": "ava",
-    "test:watch": "ava --watch",
     "prepublishOnly": "npm run clean && npm run compile"
   },
   "bugs": {
