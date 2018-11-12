@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "clean": "rimraf dist",
-    "compile": "tsc --skipLibCheck",
+    "compile": "tsc --skipLibCheck && tstei",
     "compile:watch": "tsc --skipLibCheck --watch",
     "test": "ava",
     "test:watch": "ava --watch",
@@ -37,6 +37,7 @@
   "devDependencies": {
     "@types/node": "^10.9.4",
     "rimraf": "^2.6.0",
-    "typescript": "^3.0.3"
+    "typescript": "^3.0.3",
+    "typescript-transform-export-interop": "^1.0.1"
   }
 }

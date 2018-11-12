@@ -48,4 +48,4 @@ function logUpdates ( options ) {
 
 /* EXPORT */
 
-export = Object.assign ( logUpdates, { default: logUpdates } );
+export default logUpdates;
