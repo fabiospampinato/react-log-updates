@@ -33,7 +33,7 @@ class Counters {
 
     });
 
-		console.groupEnd ();
+    console.groupEnd ();
 
     this.counters = {};
 
